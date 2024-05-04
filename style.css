@@ -12,7 +12,7 @@ footer {
 
 .btn {
 	background-color: #FF00FF;
-	font-family: "Lato";
+	font-family: "Noto Sans" !important;
 }
 
 .header {
