@@ -28,7 +28,6 @@ function getData() {
                   if (childKey != "purpose") {
                         firebase_message_id = childKey;
                         message_data = childData;
-                        //Start code
                         console.log(firebase_message_id);
                         console.log(message_data);
                         name = message_data['name'];
@@ -40,7 +39,6 @@ function getData() {
                         span_with_tag = "<span class='glyphicon glyphicon-thumbs-up'>Like: " + like + "</span></button><hr>";
                         row = name_with_tag + message_with_tag + like_button + span_with_tag;
                         document.getElementById("output").innerHTML += row;
-                        //End code
                   }
             });
       });
