@@ -1,11 +1,10 @@
 const firebaseConfig = {
-      apiKey: "AIzaSyA7DXZ2XzG-d_ReQqJt3EqFlPv2I8SaYt8",
-      authDomain: "chatapp-66d55.firebaseapp.com",
-      databaseURL: "https://chatapp-66d55-default-rtdb.firebaseio.com",
-      projectId: "chatapp-66d55",
-      storageBucket: "chatapp-66d55.appspot.com",
-      messagingSenderId: "573921724229",
-      appId: "1:573921724229:web:4151309b9c74659e7da02c"
+      apiKey: "AIzaSyDXLZKsXmt1Om2aIGB1OJNhFjI-qqcfC6w",
+      authDomain: "scribblsync-message.firebaseapp.com",
+      projectId: "scribblsync-message",
+      storageBucket: "scribblsync-message.firebasestorage.app",
+      messagingSenderId: "432313654106",
+      appId: "1:432313654106:web:2ad2cf4740e106aeec3163"
 };
 firebase.initializeApp(firebaseConfig);
 user_name = localStorage.getItem("user_name");
